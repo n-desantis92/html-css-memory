@@ -19,3 +19,21 @@ body {
 h1 {
   text-shadow: 2px 2px 8px black;
 }
+
+.container {
+  background-color: red;
+  position: relative;
+  margin: auto;
+  width: 700px;
+  height: 500px;
+}
+
+.cards {
+  display: inline-block;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: yellow;
+  width: 150px;
+  height: 180px;
+}
