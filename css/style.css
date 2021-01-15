@@ -44,6 +44,7 @@ h1 {
 }
 
 img {
+  display: none;
   background-color: white;
   position: absolute;
   width: 100%;
@@ -54,6 +55,7 @@ img {
 }
 
 div h2 {
+  display: none;
   background-color: white;
   color: violet;
   position: absolute;
@@ -64,6 +66,12 @@ div h2 {
   text-shadow: 1px 1px 2px black;
   border-radius: 10px;
   text-shadow: 2px 2px 8px black;
+}
 
+.card-6 {
+  display: block;
+}
 
+div .cards:hover img, .cards:hover h2 {
+  display: block;
 }
