@@ -25,15 +25,16 @@ h1 {
   position: relative;
   margin: auto;
   width: 700px;
-  height: 500px;
+  height: 630px;
 }
 
 .cards {
+  background-image: url(../img/pattern.png);
+  background-size: contain;
   display: inline-block;
   float: left;
   margin-left: 20px;
   margin-top: 20px;
-  background-color: yellow;
   width: 150px;
   height: 180px;
 }
