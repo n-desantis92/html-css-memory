@@ -9,6 +9,7 @@ body {
   background-color: #ADD8E6;
 }
 
+/* header */
 .titolo {
 
   color: white;
@@ -19,7 +20,9 @@ body {
 h1 {
   text-shadow: 2px 2px 8px black;
 }
+/* /header */
 
+/* main */
 .container {
 
   margin: auto;
@@ -76,7 +79,10 @@ div .cards:hover img, .cards:hover h2 {
   display: block;
 }
 
+/* /main */
+
 footer {
   text-align: center;
-
+  line-height: 100%;
+  margin-bottom: 10px;
 }
