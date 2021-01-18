@@ -38,7 +38,7 @@ h1 {
   width: 150px;
   height: 180px;
   border-radius: 10px;
-  text-shadow: 2px 2px 8px black;
+  box-shadow: 2px 2px 8px black;
 
 
 }
@@ -74,4 +74,9 @@ div h2 {
 
 div .cards:hover img, .cards:hover h2 {
   display: block;
+}
+
+footer {
+  text-align: center;
+
 }
